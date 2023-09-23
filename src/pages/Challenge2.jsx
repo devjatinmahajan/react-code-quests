@@ -4,8 +4,8 @@ export default function ChallengeII() {
   const [rating, setRating] = useState(0);
   const [hoveredRating, setHoveredRating] = useState(0);
   const [rated, setRated] = useState(false);
-  const handleRatingsChange = (index) => {
-    setRating(index + 1);
+  const handleRatingsChange = (i) => {
+    setRating(i + 1);
     setHoveredRating(0);
     setRated(true);
   };
