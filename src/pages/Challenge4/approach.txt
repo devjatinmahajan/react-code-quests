@@ -1,0 +1,6 @@
+We have 'Row' component
+we clone it, Row is array of cards
+we render row and clone side by side with overflow hidden
+
+// Row | clone
+We start moving row and clone component to left by some speed
