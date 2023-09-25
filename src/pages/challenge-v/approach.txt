@@ -1,0 +1,7 @@
+The checkbox component has these props: 
+1.checked
+2.onChange
+3.label
+
+on selecting select-all, we spread all the el and set the checked to what we are receiving from the checkbox
+on selecting one-elementing, we find that el id and change its checked.
